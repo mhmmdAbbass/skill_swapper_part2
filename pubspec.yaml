@@ -1,0 +1,48 @@
+name: skill_swaper
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: any
+  path: any
+  provider: ^6.0.2
+  flutter_secure_storage: ^7.0.1
+  encrypt: ^5.0.0
+  image_picker: ^0.8.4+8
+  cupertino_icons: ^1.0.2
+  flutter_timer_countdown: ^1.0.5
+  flutter_rating_bar: ^4.0.0
+  url_launcher: ^6.0.20
+  intl: ^0.17.0
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+  emoji_picker_flutter: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true  # Ensures Material icons can be used
+
+
+  assets:
+    - assets/logo.jpg
+    - assets/swapper.png
+    - assets/vector-1.png
+    - assets/login.jpg
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/ZillaSlab-Regular.ttf
